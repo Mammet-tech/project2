@@ -52,5 +52,5 @@ form .input-box input {
   transition: all 0.2s ease;
 }
 #button:hover {
-  background-color: rgb(88, 56, 250);
+  background-color: #04aa6d;
 }
