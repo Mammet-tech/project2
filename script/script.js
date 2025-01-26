@@ -22,6 +22,17 @@ if (!gender) {
   return;
 }
 
+const century = Math.floor((year / 100) + 1);
+const yearOfCentury = year % 100;
+const dayOfWeek = Math.floor(
+  (day +
+    Math.floor(2.6 * ((month < 3 ? month + 12 : month) - 2)) -
+    2 * century +
+    yearOfCentury +
+    Math.floor(yearOfCentury / 4) +
+    Math.floor(century / 4)) %
+    7
+);
 
   
 
