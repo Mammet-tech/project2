@@ -38,5 +38,12 @@ const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
   
+let akanName;
+if (gender === "male") {
+  akanName = maleNames[dayOfWeek];
+} else if (gender === "female") {
+  akanName = femaleNames[dayOfWeek];
+}
+
 
 }
