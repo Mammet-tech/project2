@@ -6,10 +6,10 @@ The Akan Name Generator is a simple web application that generates Akan names ba
 
 ## Features
 
-Input fields for the day, month, and year of birth.
-Gender selection to determine the Akan name.
-A button that triggers the generation of the Akan name.
-A dynamic output section displaying the generated Akan name.
+. Input fields for the day, month, and year of birth.
+. Gender selection to determine the Akan name.
+. A button that triggers the generation of the Akan name.
+. A dynamic output section displaying the generated Akan name.
 
 ## Technologies Used
 
