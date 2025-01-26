@@ -55,6 +55,7 @@ form .input-box input {
   background-color: #04aa6d;
 }
 #output {
-  
+  float: left;
   color: white;
+  font-size: 24px;
 }
