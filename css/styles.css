@@ -50,13 +50,12 @@ form .input-box input {
   cursor: pointer;
   border: none;
   transition: all 0.2s ease;
-  
 }
 #button:hover {
   background-color: #04aa6d;
 }
 #output {
-  
+  flex-wrap: wrap;
   color: white;
   font-size: 24px;
 }
