@@ -33,7 +33,7 @@ document.getElementById("button").addEventListener("click", function () {
       Math.floor(century / 4)) %
     7;
 
-  const dayIndex = (dayOfWeek + 7) % 7;
+  const dayIndex = (dayOfWeek + 1 + 7) % 7;
 
   const maleNames = [
     "Kwasi",
